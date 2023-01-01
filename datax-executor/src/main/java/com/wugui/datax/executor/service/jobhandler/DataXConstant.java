@@ -3,7 +3,7 @@ package com.wugui.datax.executor.service.jobhandler;
 /**
  * DataX启动参数
  *
- * @author jingwk 2019-12-15
+ * @author trivis 2023年1月2日03:25:18
  */
 public class DataXConstant {
 
@@ -18,6 +18,10 @@ public class DataXConstant {
     public static final String JVM_CM = "-j";
 
     public static final String PARAMS_CM = "-p";
+
+
+    public static final String PARAMS_SYSTEM = "-D";
+    public static final String PARAMS_EQUALS = "=";
 
     public static final String PARAMS_CM_V_PT = "-Dpartition=%s";
 

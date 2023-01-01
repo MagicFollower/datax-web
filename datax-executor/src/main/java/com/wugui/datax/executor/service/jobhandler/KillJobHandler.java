@@ -15,7 +15,7 @@ import java.io.File;
 /**
  * DataX任务终止
  *
- * @author jingwk 2019-12-16
+ * @author trivis 2023年1月2日03:25:18
  */
 
 @JobHandler(value = "killJobHandler")
